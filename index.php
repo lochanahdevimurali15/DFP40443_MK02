@@ -1,19 +1,19 @@
 <?php
-$nama = "LOCHANAHDEVI MURALI";
-$nomatrik = "18DIT24F1022";
-$kelas = "DIT4A";
+include 'biodata.php';
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile</title>
 </head>
 <body>
     <h2>My Profile</h2>
-    <p>Name: <?= $nama ?></p>
-    <p>Matric No: <?= $nomatrik ?></p>
-    <p>Class: <?= $kelas ?></p>
-    <img src="photo.jpg" width="300">
+    <p>Name : <?= $name ?></p>
+    <p>No Matrik : <?= $no_matrik ?></p>
+    <p>Kelas : <?= $kelas ?></p>
+    <img src="photo.jpg" alt="200">
 </body>
-</html>
+</html
